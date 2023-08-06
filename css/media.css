@@ -1,0 +1,43 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .imgwrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    .imgwrapper img {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .form {
+        flex-direction: column;
+    }
+    .form-2 {
+        max-width: 100%;
+    }
+    .form-1 {
+        margin-bottom: 20px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        margin-bottom: 20px;
+    }
+    .title, .title2 {
+        text-align: center;
+    }
+    .title h2, .title2 h2 {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .imgwrapper img {
+        width: 70%;
+    }
+}
